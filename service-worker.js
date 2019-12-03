@@ -1,4 +1,4 @@
-importScripts("/precache-manifest.5226671df5640002e79eba66e1a2cd53.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("precache-manifest.a7ab5e33ad415bc4109fb68c6beae3d9.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({ prefix: 'cdn-gitpage-test' })
 
