@@ -1,4 +1,4 @@
-importScripts("precache-manifest.a7ab5e33ad415bc4109fb68c6beae3d9.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("precache-manifest.09b27cb63dd32e4636fa1e4c7e9691db.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({ prefix: 'cdn-gitpage-test' })
 
@@ -13,7 +13,7 @@ const cdnFiles = [
   'https://cdn.jsdelivr.net/npm/vue-router@3.1.3/dist/vue-router.min.js'
 ].map(url => ({ url }))
 
-const cdnPath = 'https://cdn.jsdelivr.net/gh/nieheyong/c@gh-pages'
+const cdnPath = 'https://cdn.jsdelivr.net/gh/nieheyong/c@gh-pages/'
 
 const precache = self.__precacheManifest.map(asset => {
   const hasHash = /\.[0-f]+\./
