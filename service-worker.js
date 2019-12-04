@@ -1,11 +1,11 @@
-importScripts("precache-manifest.5f3019853a23cce9a7e334f45da4001f.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
+importScripts("precache-manifest.a90e1b000864f7010a528ba4bf13c488.js", "https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 workbox.core.setCacheNameDetails({ prefix: 'cdn-gitpage-test' })
 
 workbox.core.skipWaiting()
 workbox.core.clientsClaim()
 
-const cdnPath = 'https://cdn.jsdelivr.net/gh/nieheyong/c@gh-pages'
+const cdnPath = 'https://cdn.jsdelivr.net/gh/nieheyong/c@gh-pages/'
 
 const tryUseCdn = asset => {
   const hasHash = /\.[0-f]+\./
